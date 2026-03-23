@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{subject}}</title>
+  <!--[if mso]>
+  <noscript><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml></noscript>
+  <![endif]-->
+  <style>
+    body { margin: 0; padding: 0; background: #f4f4f4; font-family: Arial, sans-serif; }
+    .wrapper { max-width: 600px; margin: 0 auto; background: #ffffff; }
+    .header { background: #2c3e50; padding: 30px 40px; }
+    .header h1 { color: #ffffff; margin: 0; font-size: 24px; }
+    .body { padding: 40px; color: #333333; line-height: 1.6; }
+    .body p { margin: 0 0 16px; }
+    .cta { display: inline-block; background: #2980b9; color: #ffffff !important;
+           padding: 12px 28px; border-radius: 4px; text-decoration: none;
+           font-weight: bold; margin: 16px 0; }
+    .footer { background: #f4f4f4; padding: 20px 40px; font-size: 12px; color: #888888; }
+    .footer a { color: #888888; }
+  </style>
+</head>
+<body>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td align="center" style="padding: 20px 10px;">
+      <table class="wrapper" width="600" cellpadding="0" cellspacing="0" border="0">
+
+        <!-- Header -->
+        <tr>
+          <td class="header">
+            <h1>Your Company Name</h1>
+          </td>
+        </tr>
+
+        <!-- Body -->
+        <tr>
+          <td class="body">
+            <p>Hi {{name}},</p>
+
+            <p>
+              [Your main message goes here. Keep it personal, short, and valuable
+              to {{name}} at {{company}}.]
+            </p>
+
+            <p>
+              [Second paragraph — expand on your point or add context.]
+            </p>
+
+            <!-- Optional CTA button -->
+            <a href="https://yourdomain.com" class="cta">Call To Action</a>
+
+            <p>
+              Best regards,<br />
+              <strong>[Your Name]</strong><br />
+              [Title] · [Company]
+            </p>
+          </td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+          <td class="footer">
+            <p>
+              You're receiving this because [reason].<br />
+              <a href="{{unsubscribe_url}}">Unsubscribe</a> &nbsp;|&nbsp;
+              [Your Company] · [Address] · [City, Country]
+            </p>
+          </td>
+        </tr>
+
+      </table>
+    </td></tr>
+  </table>
+</body>
+</html>

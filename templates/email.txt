@@ -1,0 +1,14 @@
+Hi {{name}},
+
+[Your plain-text message goes here.]
+
+Replace this line with your actual content. Keep it personal and relevant
+to {{name}} at {{company}}.
+
+Best regards,
+[Your Name]
+
+──────────────────────────────────────────────────────
+You are receiving this email because [reason].
+To unsubscribe, visit: {{unsubscribe_url}}
+[Your Company] · [Address] · [City, Country]

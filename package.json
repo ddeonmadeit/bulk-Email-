@@ -1,0 +1,20 @@
+{
+  "name": "bulk-emailer",
+  "version": "1.0.0",
+  "description": "Bulk emailer with anti-spam rate limiting and CSV support",
+  "main": "emailer.js",
+  "scripts": {
+    "start": "node emailer.js",
+    "send": "node emailer.js",
+    "preview": "node emailer.js --preview"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.3",
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.13"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "license": "MIT"
+}
